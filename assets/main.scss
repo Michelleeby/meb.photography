@@ -1,8 +1,14 @@
 ---
 ---
 
-@import "minima";
+@import "minima";'
 
+html {
+  background-color: RGB(230, 235, 242);
+}
+body {
+  width: 80%;
+}
 footer {
   width: 80%;
   margin: auto;
