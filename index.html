@@ -7,7 +7,7 @@ layout: default
   {%- assign images = site.static_files | where:"extname", ".jpg" -%}
   {%- for image in images -%}
     <div class="grid-item">
-      <img src="{{ image.path }}" alt="gallery image">
+      <img src="{{ image.path }}" data-lightbox="gallery" alt="gallery image">
     </div>
   {%- endfor -%}
 </div>
