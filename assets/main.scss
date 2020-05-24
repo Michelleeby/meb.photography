@@ -9,13 +9,14 @@
 html, body, footer {
   background-color: RGB(230, 235, 242);
 }
-/**** Center Page Content ****/
+/**** Default Page Content ****/
 body, footer {
   margin: auto;
   width: 90%; /* set this in a media query later */
 }
 /**** Default Header ****/
 .site-header {
+  margin-top: 25px;
   display: flex;
   border: none;
 }
