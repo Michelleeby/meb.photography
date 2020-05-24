@@ -3,6 +3,7 @@ layout: default
 ---
 <div class="grid">
   <div class="grid-sizer"></div>
+  <div class="gutter-sizer"></div>
   {%- assign images = site.static_files | where:"extname", ".jpg" -%}
   {%- for image in images -%}
     <div class="grid-item">
