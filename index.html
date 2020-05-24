@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="grid">
+  <div class="grid-sizer"></div>
+  {%- assign images = site.static_files | where:"extname", ".jpg" -%}
+  {%- for image in images -%}
+    <div class="grid-item">
+      <img class="gallery-image" src="{{ image.path }}" alt="gallery image">
+    </div>
+  {%- endfor -%}
+</div>

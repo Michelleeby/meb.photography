@@ -1,11 +1,15 @@
 <footer>
   <p>Copyright &copy; 2020 Michelle Byrnes</p>
 
-  <script>
-    $('.grid').masonry({
-      // options...
-      itemSelector: '.grid-item',
-      columnWidth: 400
+  <script type="text/javascript">
+    $(document).ready(function(){
+      var $grid = $('.grid').imagesLoaded( function() {
+        $grid.masonry({
+          itemSelector: '.grid-item',
+          percentPosition: true,
+          columnWidth: '.grid-sizer'
+        });
+      });
     });
   </script>
 </footer>
