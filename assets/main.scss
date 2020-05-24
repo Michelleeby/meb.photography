@@ -12,7 +12,7 @@ html, body, footer {
 /**** Center Page Content ****/
 body, footer {
   margin: auto;
-  width: 80%; /* set this in a media query later */
+  width: 90%; /* set this in a media query later */
 }
 /**** Default Header ****/
 .site-header {
@@ -40,7 +40,7 @@ footer p {
 
 .grid-sizer,
 .grid-item {
-  width: 50%;
+  width: 33.333%;
 }
 
 .grid-item {
