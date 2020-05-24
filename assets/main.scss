@@ -40,11 +40,12 @@ footer p {
 
 .grid-sizer,
 .grid-item {
-  width: 33.333%;
+  width: 50%;
 }
 
 .grid-item {
   float: left;
+  margin-bottom: 10px;
 }
 
 .grid-item img {
