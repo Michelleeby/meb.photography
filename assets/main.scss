@@ -3,17 +3,23 @@
 
 @import "minima";
 
-html {
+/*** Default Styling ***/
+
+/**** Set Default Colors ****/
+html, body, footer {
   background-color: RGB(230, 235, 242);
 }
-body {
+/**** Center Page Content ****/
+body, footer {
   margin: auto;
-  width: 80%;
+  width: 80%; /* set this in a media query later */
 }
-footer {
-  width: 80%;
-  margin: auto;
+/**** Default Header ****/
+.site-header {
+  display: flex;
+  border: none;
 }
+/**** Default Fonts ****/
 footer p {
   text-align: center;
   font-weight: 300;
