@@ -1,0 +1,48 @@
+/*** Colors ***/
+html, body, footer {
+  background-color: RGB(230, 235, 242);
+}
+/*** Page Styles ***/
+/**** Containers ****/
+body, footer {
+  margin: auto;
+  width: 90%;
+}
+/*** Header ***/
+.site-header {
+  margin-top: 25px;
+  display: flex;
+  border: none;
+}
+#logo {
+  margin: auto;
+}
+/*** Fonts ***/
+footer p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 11px;
+}
+/*** Image Grid ***/
+/**** Clearfix ****/
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/**** Grid Item ****/
+.grid-sizer,
+.grid-item {
+  width: 100%;
+}
+.gutter-sizer {
+  width: 0px;
+}
+.grid-item {
+  float: left;
+  margin-bottom: 5px;
+}
+.grid-item img {
+  display: block;
+  width: 100%;
+}

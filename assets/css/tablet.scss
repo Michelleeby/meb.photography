@@ -1,0 +1,19 @@
+@media (min-width: 520px) {
+  /*** Image Grid ***/
+  .grid-sizer,
+  .grid-item {
+    width: 49%;
+  }
+
+  .gutter-sizer {
+    width: 10px;
+  }
+  .grid-item {
+    float: left;
+    margin-bottom: 10px;
+  }
+  .grid-item img {
+    display: block;
+    width: 100%;
+  }
+}
