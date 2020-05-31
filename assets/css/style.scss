@@ -12,6 +12,9 @@ body, footer {
   margin: auto;
   width: 90%;
 }
+main {
+  max-width:1800px;
+}
 /*** Header ***/
 .site-header {
   margin-top: 25px;
@@ -56,15 +59,15 @@ footer p {
   /*** Image Grid ***/
   .grid-sizer,
   .grid-item {
-    width: 49%;
+    width: 49.5%;
   }
 
   .gutter-sizer {
-    width: 10px;
+    width: 0.5%;
   }
   .grid-item {
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 0.5%;
   }
   .grid-item img {
     display: block;
@@ -77,15 +80,15 @@ footer p {
   /*** Image Grid ***/
   .grid-sizer,
   .grid-item {
-    width: 32.6%;
+    width: 32.8333%;
   }
 
   .gutter-sizer {
-    width: 10px;
+    width: 0.5%;
   }
   .grid-item {
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 0.5%;
   }
   .grid-item img {
     display: block;
