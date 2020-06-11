@@ -18,10 +18,10 @@ main {
 /*** Header ***/
 .site-header {
   margin-top: 25px;
-  display: flex;
   border: none;
 }
 #logo {
+  display: block;
   margin: auto;
 }
 /*** Fonts ***/
