@@ -3,16 +3,18 @@
 @import "minima";
 /** DEFAULT **/
 /*** Colors ***/
-html, body, footer {
-  background-color: RGB(230, 235, 242);
+body {
+  background-color: RGB(230, 235, 242); /* night mode value RGB (36, 37, 38) */
 }
 /*** Page Styles ***/
 /**** Containers ****/
-body, footer {
+html, body {
+  width: 100%;
+  max-width: 100%;
+}
+header, main, footer {
   margin: auto;
   width: 90%;
-}
-main {
   max-width:1800px;
 }
 /*** Header ***/
