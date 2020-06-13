@@ -4,11 +4,16 @@ layout: default
 <div class="grid">
   <div class="grid-sizer"></div>
   <div class="gutter-sizer"></div>
-  {%- assign images = site.static_files | where:"extname", ".jpg" -%}
+  {%- assign images = site.static_files | where_exp:"image",
+  "image.path contains '/gallery/jpg'" -%}
   {%- for image in images -%}
     <div class="grid-item">
       <a href="{{ image.path }}" data-lightbox="gallery">
-        <img src="{{ image.path }}" alt="">
+        <picture>
+          <source type="image/webp" srcset="/assets/images/gallery/webp/{{ image.basename }}.webp">
+          <source type="image/jpeg" srcset="{{ image.path }}">
+          <img src="{{ image.path }}" alt="">
+        </picture>
       </a>
     </div>
   {%- endfor -%}
