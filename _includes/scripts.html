@@ -11,10 +11,9 @@
       });
     });
     // Toggle darkmode on/off
-    var darkmodeToggle = $(".dark-toggle-switch")
+    var elements = $(".dark-toggle-switch, body, footer")
     darkmodeToggle.click(function(){
-	     darkmodeToggle.toggleClass("darkmode--active");
-       $("body").toggleClass("darkmode--active");
+	     elements.toggleClass("darkmode--active");
      });
   });
 </script>
