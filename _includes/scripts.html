@@ -9,5 +9,11 @@
         gutter: '.gutter-sizer'
       });
     });
+    // Toggle darkmode on/off
+    var darkmodeToggle = $(".dark-toggle-switch")
+    darkmodeToggle.click(function(){
+	     darkmodeToggle.toggleClass("darkmode--active");
+       $("body").toggleClass("darkmode--active");
+     });
   });
 </script>

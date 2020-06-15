@@ -4,7 +4,7 @@
 /** DEFAULT **/
 /*** Colors ***/
 body {
-  background-color: RGB(230, 235, 242); /* night mode value RGB (36, 37, 38) */
+  background-color: RGB(230, 235, 242);
 }
 /*** Page Styles ***/
 /**** Containers ****/
@@ -55,6 +55,47 @@ footer p {
   display: block;
   width: 100%;
 }
+/*** Dark Mode ***/
+body.darkmode--active {
+  background-color: rgb(36, 37, 38);
+}
+.dark-toggle-switch {
+    display: inline-block;
+    background: #ccc;
+    border-radius: 16px;
+    width: 48px;
+    height: 22px;
+    position: absolute;
+    vertical-align: middle;
+    transition: background 0.25s;
+    left: 100%;
+    top: 25px;
+}
+
+.dark-toggle-switch::before, .dark-toggle-switch::after {
+    content: "";
+}
+
+.dark-toggle-switch::before {
+    display: block;
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: left 0.25s;
+}
+
+.darkmode--active.dark-toggle-switch::before {
+    left: 30px;
+}
+.darkmode--active.dark-toggle-switch {
+  background-color: #4c4b52;
+}
+
 /** END DEFAULT **/
 /** TABLET **/
 @media (min-width: 520px) {
