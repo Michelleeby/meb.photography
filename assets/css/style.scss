@@ -8,11 +8,11 @@ body {
 }
 /*** Page Styles ***/
 /**** Containers ****/
-html, body {
+html, body, header {
   width: 100%;
   max-width: 100%;
 }
-header, main, footer {
+main, footer {
   margin: auto;
   width: 90%;
   max-width:1800px;
