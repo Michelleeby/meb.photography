@@ -8,11 +8,11 @@ body {
 }
 /*** Page Styles ***/
 /**** Containers ****/
-html, body, header {
+html, body {
   width: 100%;
   max-width: 100%;
 }
-main, footer {
+header, main, footer {
   margin: auto;
   width: 90%;
   max-width:1800px;
@@ -68,8 +68,8 @@ body.darkmode--active {
     position: absolute;
     vertical-align: middle;
     transition: background 0.25s;
-    left: 90%;
-    top: 25px;
+    left: 60%;
+    top: 50px;
 }
 
 .dark-toggle-switch::before, .dark-toggle-switch::after {
