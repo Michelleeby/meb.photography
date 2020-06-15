@@ -11,8 +11,9 @@
       });
     });
     // Toggle darkmode on/off
-    var elements = $(".dark-toggle-switch, body, footer");
-    $(".dark-toggle-switch").click(function(){
+    var toggle = $("button.dark-toggle-switch")
+    var elements = toggle.add("body, footer");
+    toggle.click(function(){
 	     elements.toggleClass("darkmode--active");
      });
   });

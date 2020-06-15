@@ -17,7 +17,7 @@ header, main, footer {
   width: 90%;
   max-width:1800px;
 }
-/*** Header ***/
+/**** Header ****/
 .site-header {
   margin-top: 25px;
   border: none;
@@ -26,7 +26,7 @@ header, main, footer {
   display: block;
   margin: auto;
 }
-/*** Fonts ***/
+/**** Fonts ****/
 footer p {
   text-align: center;
   font-weight: 300;
@@ -62,10 +62,12 @@ body.darkmode--active {
 footer.darkmode--active p {
   color: #fff;
 }
-.dark-toggle-switch {
+
+button.dark-toggle-switch {
     display: inline-block;
     background: #ccc;
     border-radius: 16px;
+    border: none;
     width: 48px;
     height: 22px;
     position: absolute;
@@ -74,11 +76,11 @@ footer.darkmode--active p {
     right: 1px;
 }
 
-.dark-toggle-switch::before, .dark-toggle-switch::after {
+button.dark-toggle-switch::before, button.dark-toggle-switch::after {
     content: "";
 }
 
-.dark-toggle-switch::before {
+button.dark-toggle-switch::before {
     display: block;
     background: linear-gradient(to bottom, #fff 0%, #eee 100%);
     border-radius: 50%;
@@ -91,10 +93,10 @@ footer.darkmode--active p {
     transition: left 0.25s;
 }
 
-.darkmode--active.dark-toggle-switch::before {
+button.darkmode--active.dark-toggle-switch::before {
     left: 30px;
 }
-.darkmode--active.dark-toggle-switch {
+button.darkmode--active.dark-toggle-switch {
   background-color: #4c4b52;
 }
 
