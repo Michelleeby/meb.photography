@@ -68,8 +68,7 @@ body.darkmode--active {
     position: absolute;
     vertical-align: middle;
     transition: background 0.25s;
-    left: 60%;
-    top: 50px;
+    right: 1px;
 }
 
 .dark-toggle-switch::before, .dark-toggle-switch::after {
