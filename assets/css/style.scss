@@ -56,13 +56,14 @@ footer p {
   width: 100%;
 }
 /*** Dark Mode ***/
+/**** DM Colors ****/
 body.darkmode--active {
   background-color: rgb(36, 37, 38);
 }
 footer.darkmode--active p {
   color: #fff;
 }
-
+/**** DM Button Toggle ****/
 button.dark-toggle-switch {
     display: inline-block;
     background: #ccc;
@@ -99,8 +100,8 @@ button.darkmode--active.dark-toggle-switch::before {
 button.darkmode--active.dark-toggle-switch {
   background-color: #4c4b52;
 }
-
 /** END DEFAULT **/
+
 /** TABLET **/
 @media (min-width: 520px) {
   /*** Image Grid ***/
@@ -118,6 +119,7 @@ button.darkmode--active.dark-toggle-switch {
   }
 }
 /** END TABLET **/
+
 /** DESKTOP **/
 @media (min-width: 980px) {
   /*** Image Grid ***/
