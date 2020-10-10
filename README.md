@@ -1,1 +1,1 @@
-GitHub Repository for https://www.meb.photography
+GitHub Repository for [meb.photography](https://www.meb.photography)
