@@ -6,7 +6,8 @@ layout: default
   <div class="gutter-sizer"></div>
   {%- assign images = site.static_files | where_exp:"image",
   "image.path contains '/gallery/jpg'" -%}
-  {%- for image in images -%}
+  {%- assign sortedImages = images | reverse -%}
+  {%- for image in sortedImages -%}
     <div class="grid-item">
       <a href="{{ image.path }}" data-lightbox="gallery">
         <picture>
