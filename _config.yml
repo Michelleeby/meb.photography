@@ -22,9 +22,9 @@ title: Michelle Byrnes Photography
 description: >- # this means to ignore newlines until "baseurl:"
   Digital photogrpahy shot by Michelle Byrnes.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://byrneseyeview.co" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://meb.photography" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Michelleeby
-instagram: byrneseyeview
+instagram: meb.photogrpahy
 
 # Google Analytics
 google_analytics: UA-154876366-3
