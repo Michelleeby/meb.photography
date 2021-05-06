@@ -1,1 +1,1 @@
-GitHub Repository for [meb.photography](https://www.meb.photography)
+Backend for my [photography portfolio](https://photography.michelleby.com).
